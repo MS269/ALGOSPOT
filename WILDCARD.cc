@@ -22,9 +22,9 @@ int main() {
   freopen("input.txt", "r", stdin);
 #endif // _DEBUG
   ios_base::sync_with_stdio(false); cin.tie(nullptr);
-  int t;
-  cin >> t;
-  while (t--) {
+  int c;
+  cin >> c;
+  while (c--) {
     int n;
     cin >> wild >> n;
     vector<string> files;
